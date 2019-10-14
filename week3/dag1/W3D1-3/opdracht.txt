@@ -1,0 +1,40 @@
+============ Opdracht a ============
+- Wat is de response?
+De broncode van de website van Winc Academy
+
+- Kun je ergens in de header terugvinden op wat voor type server onze website draait?
+Apache Server
+
+============ Opdracht b ============
+1. - Wat is de response? (na POST)
+{
+    "args": {},
+    "data": "{ \n\t\"opleiding\":\"Winc Academy\", \n\t\"oordeel\":\"is de allerbeste\"\n}",
+    "files": {},
+    "form": {},
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Cache-Control": "no-cache",
+        "Content-Length": "64",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "Postman-Token": "f9450914-8749-4d6f-ac39-895987b11802",
+        "User-Agent": "PostmanRuntime/7.18.0"
+    },
+    "json": {
+        "oordeel": "is de allerbeste",
+        "opleiding": "Winc Academy"
+    },
+    "origin": "94.213.140.22, 94.213.140.22",
+    "url": "https://httpbin.org/post"
+}
+
+1. - Waar zie je de HTTP status code? (na POST)
+200 OK (rechtsboven in het response gedeelte)
+
+2. - Wat is nu de response? (na DELETE)
+Een korte HTML-pagina met de mededeling dat de gevraagde pagina niet is gevonden
+
+2. - Welke HTTP status code krijg je nu? Waarom krijg je deze terug denk je? (na DELETE)
+404, omdat we (de client) een pagina opvragen die niet bestaat

@@ -1,0 +1,21 @@
+1. Gebruik het ping commando in je terminal om het IP adres te vinden van theguardian.com
+- 151.101.65.111
+
+2. Gebruik het tracert commando om te zien hoeveel "hops" je neemt om verbinding te maken met theguardian.com
+- Na 30 hops staakte mijn terminal zijn poging om theguardian.com te bereiken. Voor bijvoorbeeld Nu.nl waren het 16 hops.
+
+3. Op basis van een URL kan je ook zelf de DNS opzoeken van websites. Gebruik http://whois.domaintools.com om de DNS op te zoeken van:
+- http://google.com
+NS1.GOOGLE.COM
+NS2.GOOGLE.COM
+NS3.GOOGLE.COM
+NS4.GOOGLE.COM
+
+- http://wincacademy.nl (kan je vinden via welke partij wij hosting doen)
+NS0.TRANSIP.NET
+NS1.TRANSIP.NL
+NS2.TRANSIP.EU
+(hosting via TransIP)
+
+4. Zoek je eigen IP adres op
+Gevonden, maar misschien niet handig om op Github te zetten?
