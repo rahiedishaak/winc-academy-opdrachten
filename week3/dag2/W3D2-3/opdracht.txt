@@ -1,0 +1,19 @@
+1. Doe een GET request op https://api.thecatapi.com/v1/breeds
+- Wat is de response?
+Een JSON-object van 2.667 regels
+
+- Welke status code krijg je terug?
+200 (OK)
+
+
+2. Doe een GET request op http://www.omdbapi.com/?i=tt3896198
+- Wat is de response?
+Een JSON-object met een foutmelding, waarin om een API-key wordt gevraagd
+
+- Welke status code krijg je terug?
+401 (Unauthorized)
+
+
+3. Voeg nu aan de Parameters het volgende toe en doe opnieuw de GET request: key: apikey | value: 896f18d6
+- Welke response krijg je nu?
+Een JSON-object over 'Guardians of the Galaxy Vol. 2'
