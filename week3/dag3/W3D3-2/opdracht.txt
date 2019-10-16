@@ -1,0 +1,16 @@
+Ik vormde een groep met Fleur, Lente en Eurvin. Onze rolverdeling was als volgt:
+– ronde 1: junior (Fleur), senior (Lente), observanten (Eurvin, Rahied)
+– ronde 2: junior (Lente), senior (Fleur), observanten (Eurvin, Rahied)
+– ronde 3: junior (Eurvin), senior (Rahied), observanten (Lente, Fleur)
+– ronde 4: junior (Rahied), senior (Eurvin), observanten (Lente, Fleur)
+
+Ik als observant:
+Als observant viel het mij op dat Fleur en Lente vooral heel open vragen aan elkaar stelden, die ze allebei goed en rustig konden beantwoorden. Het was een prettig gesprek tussen allebei (bij zowel Fleur als junior en Lente als senior, als omgekeerd). Hun manier van vragen stellen vond ik heel goed, aangezien je met open vragen de ander het beste haar verhaal laat vertellen. Wat een heel goede beginvraag is gebleken: ‘wil je je code uitleggen?’ of ‘hoe ben je begonnen met het project?’. Als je dan samen door de code loopt, dan komt de rest van de vragen vanzelf. Een goede vervolgvraag bleek bijvoorbeeld ook: ‘welke problemen ben je tegengekomen?’. Als je die vraag stelt aan een junior developer, dan kan je haar aan de hand van het antwoord tips geven.
+
+Ik als senior:
+Ik ben begonnen met Eurvin te vragen hoe hij dit project (Filmzoeker) heeft aangepakt. Hierop gaf hij heel rustig, helder en uitgebreid antwoord. Aan de hand daarvan zijn we samen door zijn code gelopen en heb ik gaandeweg vragen gesteld en tips gegeven. Wat betreft het tips geven: ik was even bang dat ik daar te veel aan tunnelvisie leed, zo van: ‘zo moet het’, in plaats: ‘hey, dit is ook een optie’. Ik dacht dus dat ik daar enigszins dwingend in was, maar dat was – hoorde ik later in de evaluatie – zeker niet het geval. Tot slot heb ik Eurvin gevraagd of hij nog problemen heeft gehad bij het schrijven van zijn code. Hij noemde er één en daarvoor wist ik de oplossing wel. Het probleem was alleen dat het lastig uit te leggen was, omdat het abstract was – niet concreet met de code erbij. Dus misschien is dat nog een verbeterpunt voor mij. Eurvin ging als junior in elk geval heel goed met mijn feedback om.
+
+Ik als junior:
+Eurvin en ik zijn stapsgewijs door mijn code gelopen en hebben aan de hand daarvan dingen besproken. Ik heb bijvoorbeeld uitgelegd hoe ik dit project heb aangepakt en waarom ik bepaalde code op die manier heb geschreven. Dat verliep allemaal in een prettige sfeer. Ook heeft Eurvin me nog een tip gegeven hoe ik een bepaald stukje code efficiënter had kunnen schrijven. Hoewel ik na het project best tevreden was over mijn code, was ik wel blij met zijn tip. Ik reageerde er goed op, dus dat is ook positief. Ik schoot niet in de verdediging, wat in het verleden volgens mij nog wel eens gebeurde.
+
+Net als mijn groepsgenoten vond ik dit een heel leuke en leerzame opdracht, want het geeft je alvast een inkijkje in de professionele wereld. Je leert van elkaars code en het feedback geven an sich, dus dit was zeker een goede opdracht. De eindconclusie was dat we allemaal heel objectief waren in onze feedback en dat we het prettig vinden om zo begeleid te worden.
