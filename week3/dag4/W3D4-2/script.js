@@ -6,6 +6,9 @@ const buttonEl = document.querySelector('button');
 const renderToDOM = async (pokemonID) => {
   const pokemon = await getPokemon(pokemonID);
 
+  // Adding margin-bottom to button
+  buttonEl.style.marginBottom = '3.5rem';
+
   // Adding Pokemon name to h1
   h1.textContent = pokemon.forms[0].name;
 
@@ -16,7 +19,7 @@ const renderToDOM = async (pokemonID) => {
   // Adding types
   typeEl.innerHTML = '';
   const typeSpan = document.createElement('span');
-  typeSpan.textContent = 'Type(s): ';
+  typeSpan.textContent = 'Type: ';
   typeEl.appendChild(typeSpan);
 
   const types = pokemon.types.map(type => type.type.name);
