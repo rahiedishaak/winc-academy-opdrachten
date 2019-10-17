@@ -31,6 +31,7 @@ const renderToDOM = async (pokemonID) => {
 };
 
 buttonEl.addEventListener('click', function(e) {
+  // Generate random number between 1 and 150, to generate a Pokemon of the first Generation
   const pokemonID = Math.floor(Math.random() * 150) + 1;
   renderToDOM(pokemonID);
 })
