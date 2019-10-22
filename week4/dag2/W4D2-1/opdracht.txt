@@ -1,0 +1,25 @@
+Vraag 1:
+blue
+
+
+Vraag 2:
+#gallery  ID
+.button   class
+button    element
+
+
+Vraag 3:
+h1
+.important
+h2.important
+#main-photo
+
+
+Vraag 4:
+img
+.photo
+#team-pic
+
+
+Score: 100%
+Energy points: 120
