@@ -1,0 +1,9 @@
+Flexbox is een CSS-module waarmee je elementen kan positioneren. Daarmee is het een geschikte tool om lay-outs voor websites te maken. 
+
+Door de CSS-rule ‘display: flex;’ toe te passen op een bepaald element wordt het desbetreffende HTML-element omgezet in een zogeheten flex-container. Alle directe childs van deze flex-container zijn nu flex-items, die we vervolgens kunnen positioneren binnen de flex-container.
+
+Een flex-container heeft twee assen: een ‘main’-as en een ‘cross’-as. Dit is belangrijk om te weten voor het uitlijnen van de flex-items in de flex-container. Via flex-direction kan je aangeven in welke richting (row of column) de flex-items in de flex-container geplaatst moeten worden. Dit heeft invloed op wat de uiteindelijke main-as en cross-as zal zijn. Als de flex-direction row is, dan is de horizontale as de main-as en de verticale as de cross-as. Als flex-direction column is, dan is dat omgekeerd. Via align-items (voor de cross-as) en justify-content (voor de main-as) kunnen we vervolgens bepalen hoe de flex-items langs de assen gepositioneerd moeten worden. 
+
+Flexbox is perfect geschikt om ééndimensionale lay-outs te maken, bijvoorbeeld lay-outs waarbij de verschillende sections als het ware op elkaar worden gestapeld. Dus als je van tevoren al precies weet hoeveel content er op je website gaat komen.
+
+Flexbox is minder goed geschikt als je de exacte content van je website nog niet kent. Stel je spreekt een API aan die Pokémon teruggeeft, die je vervolgens op je pagina wil plaatsen. Van tevoren weet je misschien nog niet hoeveel Pokémon je terugkrijgt van de API en daarom weet je ook nog niet hoe de verschillende items gepositioneerd moeten worden in de container. In dit geval kan je beter CSS Grid gebruiken.
