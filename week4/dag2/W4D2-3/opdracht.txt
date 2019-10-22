@@ -1,0 +1,5 @@
+Een CSS Grid begint met een grid-container (display: grid;). Alle directe childs van deze grid-container zijn de grid-items, die binnen de grid-container gepositioneerd kunnen worden.
+
+Door een CSS-declaration grid-template-area/columns/rows aan de grid-container te geven, kunnen we een blauwdruk voor onze grid maken. Vervolgens kunnen we elk grid-item voorzien van een CSS-declaration grid-column/row/area om het desbetreffende item te positioneren binnen de grid-container.
+
+Een voordeel van CSS Grid ten opzichte van CSS Flexbox is dat je heel snel één item langs beide assen kan positioneren. Als een element maar langs één as gepositioneerd hoeft te worden, dan maakt Grid het echter misschien onnodig complex.
