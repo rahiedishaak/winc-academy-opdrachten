@@ -1,0 +1,5 @@
+a:link { color: #ff0000; }
+a:hover { color: #0000ff; }
+a:active { background-color: #ff0000; }
+a:visited { color: #ffff00; }
+a:focus { color: #6600ff; }
