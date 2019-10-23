@@ -1,5 +1,17 @@
-a:link { color: #ff0000; }
-a:hover { color: #0000ff; }
-a:active { background-color: #ff0000; }
-a:visited { color: #ffff00; }
-a:focus { color: #6600ff; }
+a:link { color: tomato; }
+a:visited { color: yellow; }
+a:hover { color: lightblue; }
+a:active { color: red; }
+a:focus { color: purple; }
+
+div {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+div:visited { background-color: yellow; } /* Werkt niet voor divs */
+div:hover { background-color: lightblue; }
+div:active { background-color: red; }
+div:focus { background-color: purple; } /* Werkt niet voor divs */
