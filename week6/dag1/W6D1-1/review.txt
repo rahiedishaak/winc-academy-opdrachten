@@ -1,0 +1,8 @@
+Ik heb alle zes de bugs gevonden en opgelost. Met de eerste bug ben ik het langst bezig geweest. De fout die ik daar zelf maakte, was dat ik meteen diep de components indook. Wat ik echter eerst had moeten doen – en uiteindelijk ook heb gedaan - was uitzoeken hoe de flow van de applicatie is. Toen ik die flow eenmaal door had, was het relatief eenvoudig om de zes bugs te vinden en op te lossen. Dus eigenlijk kostte het doorgronden van de applicatie me meer tijd dan het fixen van de bugs.
+
+Nadat ik de applicatie flow door had, had ik twee mogelijke tactieken: 
+1. bovenaan beginnen en langzaam naar onderen werken;
+2. onderaan beginnen en langzaam naar boven werken. 
+Aanpak 1 koos ik als ik niet meteen wist in welk component ik moest beginnen, aanpak 2 koos ik als ik daar wel een idee over had.
+
+Hoewel ik de zes bugs zelf heb kunnen oplossen, was het wel leerzaam om mee te kijken met Robert, om te zien hoe hij werkt met de developer tools en console.logs. Ikzelf ben daar nog iets minder bedreven in en doe eigenlijk alles nog in mijn hoofd. Wat ik vooral doe, is mezelf als de Javascript engine beschouwen en op deze manier stap voor stap de code doorlopen. Op die manier stuit ik dan vanzelf op de bug. Die aanpak werkt op zich goed voor mij, maar wellicht is het wel efficiënter om de developer tools te gebruiken.
