@@ -576,26 +576,6 @@ const fetchState = () => {
 
 
 
-
-
-
-// const getRandomName = () => {
-//   const person = names[Math.floor(Math.random() * 250)];
-//   return `${person.name} ${person.surname}`;
-// };
-
-// const getRandomTime = () => {
-//   let goodTime = false;
-//   let hour;
-//   while (goodTime === false) {
-//     hour = Math.floor(Math.random() * 24);
-//     if (hour > 7 && hour < 19) {
-//       goodTime = true;
-//     }
-//   }
-//   return `${hour}:00u`;
-// };
-
 // const createDayView = () => {
 //   const appointments = [];
 

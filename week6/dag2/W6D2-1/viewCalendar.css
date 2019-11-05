@@ -1,0 +1,12 @@
+th {
+    min-width: 165px;
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+}
+
+th:first-child {
+    min-width: 80px;
+}
