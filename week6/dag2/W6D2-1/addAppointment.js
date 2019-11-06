@@ -67,11 +67,18 @@ addAppointmentForm.addEventListener('submit', function(event) {
         const patientIndex = workingState.patients.findIndex(patient => patient.id === appointment.patientID);
         workingState.patients[patientIndex] = patient;
 
+        // Check if dentist is available at current appointment time
+        const appointmentDentistConflict = workingState.appointments.filter(app => 
+            app.day === appointment.day && app.hour === appointment.hour && app.dentistID === appointment.dentistID);
+
         // Check if dentist and assistant are available at current appointment time
-        const appointmentConflict = workingState.appointments.filter(app => 
-            (app.day === appointment.day && app.hour === appointment.hour && app.dentistID === appointment.dentistID) || 
-            (app.day === appointment.day && app.hour === appointment.hour && app.assistantID === appointment.assistantID) 
-        );
+        let appointmentAssistantConflict = [];
+        if (appointment.assistantID) {
+            appointmentAssistantConflict = workingState.appointments.filter(app => 
+                app.day === appointment.day && app.hour === appointment.hour && app.assistantID === appointment.assistantID);
+        }
+
+        const appointmentConflict = appointmentDentistConflict.concat(appointmentAssistantConflict);
 
         const errorDiv = document.querySelector('#error');
 
@@ -83,6 +90,7 @@ addAppointmentForm.addEventListener('submit', function(event) {
             errorDiv.textContent = '';
             workingState.appointments.push(appointment);
             localStorage.setItem('state', JSON.stringify(workingState));
+            window.location = '/viewCalendar.html';
         } else {
             errorDiv.style.backgroundColor = 'red';
             errorDiv.style.color = 'white';
