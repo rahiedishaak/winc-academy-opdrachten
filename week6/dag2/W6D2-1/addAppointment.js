@@ -35,8 +35,12 @@ addAppointmentForm.addEventListener('submit', function(event) {
     event.preventDefault();
 
     if (event.target.day.value && event.target.hour.value && event.target.dentist.value && event.target.assistant.value && event.target.patient.value) {
+        const lastAppointment = workingState.appointments[workingState.appointments.length -1]
+        const lastAppointmentID = lastAppointment.id;
+        const currentAppointmentID = lastAppointmentID + 1;
+
         const appointment = {
-            id: workingState.appointments.length + 1,
+            id: currentAppointmentID,
             day: parseInt(event.target.day.value),
             hour: parseInt(event.target.hour.value),
             dentistID: parseInt(event.target.dentist.value),

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afspraak verplaatsen</title>
+</head>
+<body>
+
+    <h1>Afspraak verplaatsen</h1>
+
+    <div id="error"></div>
+
+    <form autocomplete="off" id="update-appointment-form">
+        <p>
+            <label>Dag: 
+                <select name="day" id="days-list">
+                    <option value="1">Dag 1</option>
+                    <option value="2">Dag 2</option>
+                    <option value="3">Dag 3</option>
+                    <option value="4">Dag 4</option>
+                    <option value="5">Dag 5</option>
+                    <option value="8">Dag 8</option>
+                    <option value="9">Dag 9</option>
+                    <option value="10">Dag 10</option>
+                    <option value="11">Dag 11</option>
+                    <option value="12">Dag 12</option>
+                    <option value="15">Dag 15</option>
+                    <option value="16">Dag 16</option>
+                    <option value="17">Dag 17</option>
+                    <option value="18">Dag 18</option>
+                    <option value="19">Dag 19</option>
+                    <option value="22">Dag 22</option>
+                    <option value="23">Dag 23</option>
+                    <option value="24">Dag 24</option>
+                    <option value="25">Dag 25</option>
+                    <option value="26">Dag 26</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>Uur: 
+                <select name="hour" id="hours-list">
+                    <option value="9">9.00 uur</option>
+                    <option value="10">10.00 uur</option>
+                    <option value="11">11.00 uur</option>
+                    <option value="12">12.00 uur</option>
+                    <option value="14">14.00 uur</option>
+                    <option value="15">15.00 uur</option>
+                    <option value="16">16.00 uur</option>
+                    <option value="17">17.00 uur</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>Tandarts:
+                <select name="dentist" id="dentists-list"></select>
+            </label>
+        </p>
+
+        <p>
+            <label>Assistent:
+                <select name="assistant" id="assistants-list"></select>
+            </label>
+        </p>
+
+        <p>
+            <label>Patient:
+                <select name="patient" id="patients-list"></select>
+            </label>
+        </p>
+
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+    
+    <p>
+        <a href="#" id="previous-page-link">Terug naar de vorige pagina</a><br>
+        <a href="index.html">Terug naar de homepage</a>
+    </p>
+
+    <script src="script.js"></script>
+    <script src="updateAppointment.js"></script>
+    
+</body>
+</html>
