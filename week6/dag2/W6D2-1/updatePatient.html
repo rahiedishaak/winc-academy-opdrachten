@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient ziek melden</title>
+</head>
+<body>
+
+    <h1>Patient ziek melden</h1>
+
+    <form id="update-patient-availability" autocomplete="off">
+        <p>
+            <select name="patient" id="patients-list"></select>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="available" id="patient-availability-checkbox"> Beschikbaar
+            </label>
+        </p>
+        <input type="submit">
+    </form>
+
+    <p>
+        <a href="index.html">Terug</a>
+    </p>
+
+    <script src="script.js"></script>
+    <script src="updatePatient.js"></script>
+    
+</body>
+</html>
